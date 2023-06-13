@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #262222;
+  color:#a8a8a8;
+}
+h{
+  text-shadow: 2px 2px ;
+}
+
+ul{
+
+  list-style-type: none;
+  margin : 0; 
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #262222;
+}
+li a {
+  display: block;
+  color: #a8a8a8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: .5s;
+}
+li a:hover {
+  background-color: #979082;
+}
+.active{
+  background-color:  #979082;;
+}
+
+.happy{
+  text-align: center;
+ font-size :100px;
+}
+.smile{
+   text-align: center;
+  font-size: 50px;
+}
+
